@@ -1,13 +1,14 @@
-import { Text } from "react-native";
+import { Header } from "../../../components/Header";
+import { NewMeal } from "../../../components/NewMeal";
+import { Percent } from "../../../components/Percent";
 import { Container } from "./styles";
 
 export function Dashboard() {
   return (
     <Container>
-      <Text>Hello world</Text>
-      <Text>Hello world</Text>
-      <Text>Hello world</Text>
-      <Text>Hello world</Text>
+      <Header />
+      <Percent />
+      <NewMeal />
     </Container>
   );
 }
